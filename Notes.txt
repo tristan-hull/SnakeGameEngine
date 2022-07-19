@@ -1,0 +1,16 @@
+Assumption: If the snake can't move in a direction (is at edge of grid), just don't move
+
+At this point, I believe the API is something that would
+be usable by something that had an event listener to call
+the API methods when keyboard events happened.
+
+Since we are just building the API for the game, it seems out of
+the assessment to implement the keyboard listener and utilize the API methods.
+If I were utilizing this API, I would want to pick what key presses fire
+off the direction changes, and this is a good position to be in in order to do that.
+
+At this point, I don't know how I would fully encapsulate the running of the game and pass in events with just python files.
+This is a shortcoming of my knowledge, and likely a result of Python not being my strongest language.
+I am most used to working in the web browser, where event handling is quite common.
+
+Most of my Python experience comes from AWS working with Lambda functions that are fired by API Gateway requests.
